@@ -8,7 +8,7 @@ void inicializarTabuleiro(char tabuleiro[SIZE][SIZE]) {
         tabuleiro[0][i] = linhas[i];       // Primeira linha
         tabuleiro[1][i] = 'P';              // Peões
         tabuleiro[6][i] = 'p';              // Peões pretos
-        tabuleiro[7][i] = linhas[i] + 32;   // Segunda linha (minúsculas)
+        tabuleiro[7][i] = linhas[i] + 32;   // Segunda linha minúsculas
     }
     for (int i = 2; i < 6; i++) {
         for (int j = 0; j < SIZE; j++) {
